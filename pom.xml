@@ -1,35 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.riccardove.easyjasub</groupId>
+	<groupId>com.github.liscare</groupId>
 	<artifactId>subtitleConvert</artifactId>
 	<version>1.0.2</version>
 	<packaging>jar</packaging>
 	<name>subtitleConvert</name>
-	<url>https://github.com/JDaren/subtitleConverter</url>
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<version>9</version>
-		<artifactId>oss-parent</artifactId>
-	</parent>
-	<description>This is a java framework for processing subtitle formats and converting them into other formats. So far the formats supported are EBU's STL, .SCC, .ASS/.SSA .SRT and a subset of W3C's TTML 1.0</description>
+	<url>https://github.com/liscare/subtitleConverter</url>
+	<description>Fork of SubtitleConvert in GitHub. Java library to convert subtitle files
+		Formats supported are EBU's STL, .SCC, .ASS/.SSA .SRT and a subset of W3C's TTML 1.0</description>
 	<inceptionYear>2013</inceptionYear>
 	<organization>
 		<name>J. David REQUEJO RODRIGUEZ</name>
 		<url>http://subtitleconverter.net/</url>
 	</organization>
-	
-	<scm>
-		<url>git@github.com:JDaren/subtitleConverter.git</url>
-		<connection>scm:git:git@github.com:JDaren/subtitleConverter.git</connection>
-		<developerConnection>scm:git:git@github.com:JDaren/subtitleConverter.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	
-	<issueManagement>
-		<url>https://github.com/JDaren/subtitleConverter/issues</url>
-		<system>GitHub</system>
-	</issueManagement>
 
 	<properties>
 		<main.class>Convert</main.class>
@@ -38,7 +22,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<github.global.server>github</github.global.server>
 	</properties>
-
 
 	<licenses>
 		<license>
@@ -50,10 +33,16 @@
 
 	<developers>
 		<developer>
-			<email>j.david.requejo@gmail.com</email>
 			<name>J. David Requejo</name>
+			<email>j.david.requejo@gmail.com</email>
 			<url>https://github.com/JDaren</url>
 			<id>JDaren</id>
+		</developer>
+		<developer>
+			<name>Lilian Braud</name>
+			<email>liscare2@protonmail.com</email>
+			<url>https://github.com/Liscare</url>
+			<id>Liscare</id>
 		</developer>
 	</developers>
 
