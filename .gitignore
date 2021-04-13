@@ -5,5 +5,5 @@
 /target
 /bin
 .directory
-.iml
+*.iml
 .idea/
